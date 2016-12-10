@@ -1,9 +1,5 @@
 machine:
   ruby:
-    version: 2.3.1p112
+    version: 2.3.1
 
-test:
-  post:
-    - bundle exec rake spinach:
-        environment:
-          RAILS_ENV: test
+
